@@ -1,0 +1,78 @@
+/* Demo CSS */
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-success {
+    color: #00f2c3 !important;
+}
+
+.text-danger {
+    color: #fd5d93 !important;
+}
+
+.text-primary {
+    color: #8a52f7 !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-5, .col-md-7, .col-md-11, .col-xl-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-md-7 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-md-11 {
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+}
+
+.col-xl-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}

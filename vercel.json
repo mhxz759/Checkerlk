@@ -1,0 +1,25 @@
+
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "routes": [
+    {
+      "src": "/gates/api.php",
+      "dest": "/api/index.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/gates/api.php",
+      "destination": "/api/index.php"
+    }
+  ]
+}
